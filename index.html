@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <script src="event_propagation.js" defer></script>
+    <style>
+        .box { padding: 20px; border: 1px solid #333; margin: 10px; }
+        .outer { background-color: #f8d7da; }
+        .middle { background-color: #ffeeba; }
+        .inner { background-color: #d4edda; }
+      </style>
+</head>
+
+
+<body>
+    <div class="box outer">
+        Outer
+        <div class="box middle">
+          Middle
+          <div class="box inner">
+            Inner
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+</html>
