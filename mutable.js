@@ -19,3 +19,5 @@ console.log("Orginal objekt", objOrg);
 
 console.log("New array", arrayNew);
 console.log("New object",objectNew );
+
+
